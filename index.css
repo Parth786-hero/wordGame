@@ -119,7 +119,7 @@ body{
     font-size: 3.5rem;
     letter-spacing: .6rem;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* border: 2px solid red; */
     width : 100%;
     /* min-height : 15rem; */

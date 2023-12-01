@@ -44,7 +44,10 @@ checkBtn.addEventListener("click" , ()=>{
     
     const userData = input.value;
 
-    if(!userData) alert("Kindly enter your guess first 😢")
+    if(!userData){
+        alert("Kindly enter your guess first 😢");
+        return;
+    }
     if(userData !== correctWord){
         alert(`sorry ! ${userData} is wrong guess .....`);
         input.value="";
